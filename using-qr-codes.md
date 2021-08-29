@@ -31,6 +31,9 @@ When you scan a QR code, your smartphone or QR code scanner takes the following 
 **Data modules**
 : The pattern of squares that communicate the information contained in a QR Code
 
+**End module**
+: An indicator that the message communicated in the QR code is complete
+
 **Error correction data module**
 : The module that holds a backup of up to 30% of the message in a QR Code
 
