@@ -6,7 +6,7 @@ QR codes are a type of barcode that involves a machine-readable series of black 
 When you scan a QR code, your smartphone or QR code scanner takes the following steps to return the stored information: 
 
 1. The camera identifies the three large, distinct squares, called the **position identifiers**, located in the corner of the QR code. These position identifiers help your camera identify the bounds of the QR code.
-2.  Once the camera identifies the location of the QR code, it scans the QR code in two column intervals, starting with the first four data modules located in the bottom right corner. These data modules, known as the **mode indicator**, indicate what type of data the QR code contains. <br/>
+2.  Once the camera identifies the location of the QR code, it scans the QR code in two column intervals, starting with the first four data modules located in the bottom right corner. These data modules, known collectively as the mode indicator, indicate what type of data the QR code contains.<br/>
 **NOTE:** For more information about what different data types contain, see the **Glossary** section.
 3. After the camera scans the first four data modules and determines what type of data is communicated by the QR Code, it scans the next eight data modules directly above the mode indicator. These eight data modules are called the **character count indicator**, and communicate the number of characters the message in the QR code contains. 
 4. Once a camera knows the type of data and how many characters are in the message, it continues to scan the QR code in two column intervals until it reaches the **end indicator**, located on the left side of the QR code.
@@ -39,6 +39,9 @@ When you scan a QR code, your smartphone or QR code scanner takes the following 
 
 **Kanji**
 : A data type comprised of Japanese characters outlined in the [Shift JIS](https://en.wikipedia.org/wiki/Shift_JIS) character set.  
+
+**Mode indicator**
+: A set of four data modules that show the scanner what type of data is contained in the QR code. 
 
 **Numeric**
 : One of four data types a QR code can read. Numeric data contains a unique sequence of the numbers 0-9. 
